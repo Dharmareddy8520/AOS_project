@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#input-section {
+  margin-bottom: 20px;
+}
+
+#memory-visualization {
+  display: flex;
+  flex-direction: column;
+}
+
+.memory-block {
+  height: 20px;
+  border: 1px solid #000;
+  margin-bottom: 5px;
+}
